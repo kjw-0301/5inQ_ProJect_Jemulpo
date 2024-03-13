@@ -27,40 +27,27 @@ AR Foundation용 [ARCore Extension Package](https://developers.google.com/ar/dev
 ### 2. Google Cloud Platform API 사용 설정
 [Google Cloud Platform](https://cloud.google.com/, "Google Cloud Platform")는 구글 클라우드 플랫폼은 구글 검색과 유튜브와 같은 최종 사용자 제품을 위해 내부적으로 구글이 사용하는, 동일한 지원 인프라스트럭처 위에서 호스팅을 제공하는 구글의 클라우드 컴퓨팅 서비스 입니다.
 
-### 3. Geospatial API 사용설정
+### Geospatial API 사용설정
 Google의 [ARCore Geospatial API](https://developers.google.com/ar/develop/geospatial?hl=ko, "Google ARCore 
  Geospatial")는 Google 스트리트 뷰가 적용되는 지역의 VPS(Visual Positioning System) 기반의 현지화를 돕는 API입니다.
 
-#### 3-1. Geospatial API사용 설정
+#### Geospatial API사용 설정
 > Project Settings -> XR Plug-in Management -> ARCore Extensions -> Enable Geospatial
 
-#### 3-2. 사용 설정 및 API Key 사용 설명
+#### 사용 설정 및 API Key 사용 설명
 Geospatial API를 사용하기 위해선 Google Cloud Platform에 프로젝트를 등록하고 API 사용설정을 하고, API Key를 발급받아야 합니다.
 
 > Android Authentication Stratage -> API Key로 설정, Android API Key 입력
 
-#### 3-3. Geospatial Creator API 사용 설정
+#### Geospatial Creator API 사용 설정
 ARCore 및 Google Maps Platform에서 제공하는 [Geospatial Creator](https://developers.google.com/ar/geospatialcreator/intro?hl=ko, "Geospatial Creator")를 사용하면 개발자와 크리에이터 모두가 Photorealistic 3D 카드를 통해 실제 위치에서 강력하고 매력적인 3D 디지털 콘텐츠를 시각화, 빌드, 실행할 수 있습니다.
 
 >  Project Settings -> XR Plug-in Management -> ARCore Extensions -> Enable Geospatial Creator
 
-#### 3-4. Cesium Pacakge 설치
+#### Cesium Pacakge 설치
 3D 지리공간 플랫폼 [Cesium](https://cesium.com/, "Cesium")은 강력한 3D 지리 공간 응용 프로그램을 만들기 위한 기본 개방형 플랫폼입니다.
 
 > Project Settings -> Package Manager -> Scoped Registries -> +버튼 클릭 후 내용 입력
-
-### 4. Naver Cloud Platform API 사용 설정
-[Naver Cloud Platform](https://www.ncloud.com/, "Never Cloud Platform")은 네이버, 라인, 밴드, 스노우, 웹툰 등 성공적인 네이버 글로벌 서비스를 위한 IT 서비스 플랫폼입니다.
-
-> Naver Cloud Platform 접속 -> 가입 -> API Key 발급
-
-#### 4-1. Directions5 API 사용 설정정
-[Direction 5 API](https://api.ncloud-docs.com/docs/ai-naver-mapsdirections, "Direction 5 API")는 사용자가 지정한 출발지/목적지 정보에 따라 경로 관련 정보를 제공합니다.
-
-> Naver Cloud Platform 접속 -> 가입 -> API Key 발급
-
-#### 4-2. Static Map API 사용 설정
-[Static Map API](https://api.ncloud-docs.com/docs/ai-naver-mapsstaticmap, "Static Map API")는 요청된 URL 매개변수를 기반으로 웹 페이지에 표시할 수 있는 이미지로 지도를 반환
 
 <br>
 
