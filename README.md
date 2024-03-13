@@ -18,7 +18,7 @@ StationJ는 제물포 스마트 Station-J 플랫폼 개발 및 콘텐츠 구축�
 - Google ARCore
 - Google Cloud Platform
 - Geospatial API
-- 
+  
 ### 1. ARCore Extension Package 설치
 AR Foundation용 [ARCore Extension Package](https://developers.google.com/ar/develop/unity-arf/getting-started-extensions?hl=ko)는 Unity의 AR Foundation 패키지에 기능을 추가하여 앱에서 Cloud Anchors, 카메라 구성 필터, 녹화 및 재생과 같은 기능을 사용할 수 있습니다.
 
