@@ -19,24 +19,24 @@ StationJ는 제물포 스마트 Station-J 플랫폼 개발 및 콘텐츠 구축�
 - Google Cloud Platform
 - Geospatial API
 
-### 3. Geospatial API 사용설정
+### Geospatial API 사용설정
 Google의 [ARCore Geospatial API](https://developers.google.com/ar/develop/geospatial?hl=ko, "Google ARCore 
  Geospatial")는 Google 스트리트 뷰가 적용되는 지역의 VPS(Visual Positioning System) 기반의 현지화를 돕는 API입니다.
 
-#### 3-1. Geospatial API사용 설정
+#### Geospatial API사용 설정
 > Project Settings -> XR Plug-in Management -> ARCore Extensions -> Enable Geospatial
 
-#### 3-2. 사용 설정 및 API Key 사용 설명
+#### 사용 설정 및 API Key 사용 설명
 Geospatial API를 사용하기 위해선 Google Cloud Platform에 프로젝트를 등록하고 API 사용설정을 하고, API Key를 발급받아야 합니다.
 
 > Android Authentication Stratage -> API Key로 설정, Android API Key 입력
 
-#### 3-3. Geospatial Creator API 사용 설정
+#### Geospatial Creator API 사용 설정
 ARCore 및 Google Maps Platform에서 제공하는 [Geospatial Creator](https://developers.google.com/ar/geospatialcreator/intro?hl=ko, "Geospatial Creator")를 사용하면 개발자와 크리에이터 모두가 Photorealistic 3D 카드를 통해 실제 위치에서 강력하고 매력적인 3D 디지털 콘텐츠를 시각화, 빌드, 실행할 수 있습니다.
 
 >  Project Settings -> XR Plug-in Management -> ARCore Extensions -> Enable Geospatial Creator
 
-#### 3-4. Cesium Pacakge 설치
+#### Cesium Pacakge 설치
 3D 지리공간 플랫폼 [Cesium](https://cesium.com/, "Cesium")은 강력한 3D 지리 공간 응용 프로그램을 만들기 위한 기본 개방형 플랫폼입니다.
 
 > Project Settings -> Package Manager -> Scoped Registries -> +버튼 클릭 후 내용 입력
